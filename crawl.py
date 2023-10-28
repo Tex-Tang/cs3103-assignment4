@@ -19,6 +19,8 @@ def crawl_url(url: str):
         if parsed_url.scheme == "":
             parsed_url = parsed_url._replace(scheme=urlparse(url).scheme)
 
+        parsed_url = parsed_url._replace(fragment="")
+
         if parsed_url.netloc == urlparse(url).netloc:
             next_urls.add(parsed_url.geturl())
 
