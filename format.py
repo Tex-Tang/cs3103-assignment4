@@ -7,7 +7,7 @@ header = ("URL", "SEQ", "START", "END", "DURATION")
 def format_result(parent_url, result, prefix=""):
     rows = [
         (
-            prefix + parent_url,
+            (prefix + " " if prefix else "") + parent_url,
             str(result[parent_url]["seq"]),
             datetime.fromtimestamp(result[parent_url]["start"]).strftime("%H:%M:%S.%f"),
             datetime.fromtimestamp(result[parent_url]["end"]).strftime("%H:%M:%S.%f"),
@@ -22,7 +22,7 @@ def format_result(parent_url, result, prefix=""):
     ]
 
     for child_url in children_urls:
-        rows = rows + format_result(child_url, result, prefix + "  ")
+        rows = rows + format_result(child_url, result, prefix + "--")
 
     return rows
 
