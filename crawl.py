@@ -78,6 +78,21 @@ def _get_geolocation_info(ip_address):
 
 
 def crawl_url(url, parent):
+    """Scrapes the url for looks for mentions of programming languages.
+    Resolve the url into an IP address and get the geolocation. Then, encapsulate
+    all the above information into a `result` dict.
+
+    Returns the `result` dict and a list of next urls.
+    `result` has the following fields:
+        url: URL
+        parent: Parent of URL
+        start: Request sent time
+        end: Response received time
+        languages: A JSON mapping of programming languages to
+            how many times they were mentioned in this page.
+        ip_address: Resolved IP address of url
+        geolocation: Region of the IP address
+    """
     start = time.time()
     response = requests.get(url)
     end = time.time()
@@ -111,8 +126,7 @@ def crawl(hostname, limit=50):
         hostname: the url to crawl
         limit: the maximum number of urls to return
 
-    Returns a list of result dicts with columns
-    'start', 'end', 'parent', 'doc', 'ip_address', 'geoloction'
+    Returns a list of `result` dicts, as defined in `crawl_url`
     """
 
     visited_lock = threading.Lock()

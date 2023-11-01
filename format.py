@@ -5,6 +5,9 @@ header = ("URL", "DURATION", "IP_ADDRESS", "GEOLOCATION", "LANGUAGES")
 
 
 def format_result(parent_url, result, prefix=""):
+    """Given a mapping of urls to dicts (as defined in `crawl_url`),
+    format it into rows of data to be saved into a csv file.
+    """
     rows = [
         (
             (prefix + " " if prefix else "") + parent_url,
