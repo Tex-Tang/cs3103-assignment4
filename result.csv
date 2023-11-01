@@ -1,10 +1,89 @@
 URL,DURATION,IP_ADDRESS,GEOLOCATION,LANGUAGES
-http://paulgraham.com,1.10s,52.204.244.237,,{}
-https://www.benkuhn.net,0.94s,18.65.25.124,,{}
-https://danluu.com,0.11s,104.21.34.43,,"{""Assembly"": 1}"
-https://emptysqua.re/blog/,0.09s,18.139.194.139,,"{""Python"": 4, ""C"": 2}"
-https://astral.sh/blog,0.71s,172.67.200.58,,"{""Python"": 34, ""Rust"": 5}"
-https://go.dev,0.40s,216.239.38.21,,"{""Go"": 65}"
-https://www.ekzhang.com,0.44s,185.199.110.153,,"{""Rust"": 1}"
-https://gwern.net,0.75s,104.26.7.70,,"{""Haskell"": 7, ""JavaScript"": 2}"
-https://evjang.com,0.50s,185.199.109.153,,{}
+http://paulgraham.com,0.86s,52.204.244.237,Virginia,{}
+-- http://paulgraham.com/info.html,2.52s,52.204.244.237,Virginia,{}
+-- http://paulgraham.com/books.html,2.48s,52.204.244.237,Virginia,"{""Lisp"": 4}"
+-- http://paulgraham.com/raq.html,2.54s,52.204.244.237,Virginia,"{""Lisp"": 5, ""Perl"": 1, ""Python"": 1}"
+-- http://paulgraham.com/lisp.html,2.49s,52.204.244.237,Virginia,"{""Lisp"": 11}"
+-- http://paulgraham.com/antispam.html,2.51s,52.204.244.237,Virginia,{}
+-- http://paulgraham.com/superlinear.html,2.52s,52.204.244.237,Virginia,{}
+-- http://paulgraham.com/kedrosky.html,2.54s,52.204.244.237,Virginia,{}
+-- http://paulgraham.com/greatwork.html,2.79s,52.204.244.237,Virginia,{}
+-- http://paulgraham.com/quo.html,2.77s,52.204.244.237,Virginia,"{""C"": 2, ""Lisp"": 1, ""Java"": 1, ""Python"": 1}"
+https://www.benkuhn.net,0.35s,13.224.250.9,Singapore,{}
+-- https://www.benkuhn.net/,0.23s,13.224.250.9,Singapore,{}
+-- https://www.benkuhn.net/all/,0.24s,13.224.250.9,Singapore,{}
+-- https://www.benkuhn.net/conviction/,0.23s,13.224.250.9,Singapore,{}
+-- https://www.benkuhn.net/blogroll/,0.23s,13.224.250.9,Singapore,"{""Rust"": 1, ""Haskell"": 1, ""C"": 1, ""Python"": 1, ""OCaml"": 1}"
+-- https://www.benkuhn.net/offer/,0.24s,13.224.250.9,Singapore,{}
+-- https://www.benkuhn.net/nwe/,0.25s,13.224.250.9,Singapore,{}
+-- https://www.benkuhn.net/writing/,0.24s,13.224.250.9,Singapore,"{""Rust"": 1, ""Haskell"": 1, ""C"": 1, ""Python"": 1, ""OCaml"": 1}"
+-- https://www.benkuhn.net/squared/,0.24s,13.224.250.9,Singapore,{}
+-- https://www.benkuhn.net/impatient/,0.23s,13.224.250.9,Singapore,{}
+https://danluu.com,0.14s,104.21.34.43,California,"{""Assembly"": 1}"
+-- https://danluu.com/bugalytics/,0.18s,104.21.34.43,California,{}
+-- https://danluu.com/why-benchmark/,0.21s,104.21.34.43,California,{}
+-- https://danluu.com/sounds-easy/,0.21s,104.21.34.43,California,{}
+-- https://danluu.com/latency-pitfalls/,0.21s,104.21.34.43,California,{}
+-- https://danluu.com/googlebot-monopoly/,0.26s,104.21.34.43,California,{}
+-- https://danluu.com/broken-builds/,0.19s,104.21.34.43,California,"{""C"": 4, ""Rust"": 1}"
+-- https://danluu.com/blog-ads/,0.19s,104.21.34.43,California,"{""Ruby"": 1}"
+-- https://danluu.com/hiring-lemons/,0.20s,104.21.34.43,California,{}
+-- https://danluu.com/ui-compatibility/,0.49s,104.21.34.43,California,{}
+https://emptysqua.re/blog/,0.16s,52.74.166.77,Singapore,"{""Python"": 4, ""C"": 2}"
+-- https://emptysqua.re/blog/extreme-modelling-in-practice/,0.19s,52.74.166.77,Singapore,"{""C"": 6, ""Python"": 1, ""JavaScript"": 1}"
+-- https://emptysqua.re/blog/johns-hopkins-psychedelics/,0.20s,52.74.166.77,Singapore,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/rip-shirley/,0.19s,52.74.166.77,Singapore,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/optimizing-mongodb-compound-indexes/,0.19s,52.74.166.77,Singapore,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/you-look-so-zen/,0.20s,52.74.166.77,Singapore,"{""C"": 2, ""JavaScript"": 1}"
+-- https://emptysqua.re/blog/meteor-dharma-talk/,0.20s,52.74.166.77,Singapore,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/peterskill-sept-2023/,0.20s,52.74.166.77,Singapore,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/review-distributed-transactions-at-scale-dynamodb/,0.20s,52.74.166.77,Singapore,"{""C"": 1, ""Java"": 1, ""JavaScript"": 1}"
+-- https://emptysqua.re/blog/photography/lower-east-side/,1.18s,52.74.166.77,Singapore,"{""C"": 9}"
+https://astral.sh/blog,1.22s,172.67.200.58,California,"{""Python"": 34, ""Rust"": 5}"
+-- https://astral.sh/static/site.webmanifest,0.22s,172.67.200.58,California,{}
+-- https://astral.sh/blog/announcing-astral-the-company-behind-ruff,0.26s,172.67.200.58,California,"{""Python"": 31, ""Rust"": 2}"
+-- https://astral.sh/blog/ruff-v0.0.292,0.24s,172.67.200.58,California,"{""Python"": 13, ""Rust"": 2}"
+-- https://astral.sh/blog/ruff-v0.1.0,0.27s,172.67.200.58,California,"{""Python"": 8, ""Rust"": 3}"
+-- https://astral.sh/blog/the-ruff-formatter,0.25s,172.67.200.58,California,"{""Python"": 29, ""Rust"": 4}"
+-- https://astral.sh/blog/ruff-v0.0.285,0.27s,172.67.200.58,California,"{""Python"": 22, ""Rust"": 2}"
+-- https://astral.sh/blog/ruff-v0.0.278,0.25s,172.67.200.58,California,"{""Python"": 7, ""Rust"": 2}"
+-- https://astral.sh/blog/ruff-v0.0.283,0.25s,172.67.200.58,California,"{""Python"": 33, ""Rust"": 2}"
+-- https://astral.sh/blog/ruff-v0.0.276,0.26s,172.67.200.58,California,"{""Python"": 31, ""Rust"": 2}"
+https://go.dev,0.99s,216.239.38.21,California,"{""Go"": 65}"
+-- https://go.dev/,0.45s,216.239.38.21,California,"{""Go"": 65}"
+-- https://go.dev/brand,0.48s,216.239.38.21,California,"{""Go"": 102}"
+-- https://go.dev/solutions/google/,0.45s,216.239.38.21,California,"{""Go"": 48}"
+-- https://go.dev/tour/,0.45s,216.239.38.21,California,"{""Go"": 2}"
+-- https://go.dev/play,0.76s,216.239.38.21,California,"{""Go"": 45}"
+-- https://go.dev/solutions/devops/,0.79s,216.239.38.21,California,"{""Go"": 71}"
+-- https://go.dev/solutions/webdev/,0.79s,216.239.38.21,California,"{""Go"": 95, ""Python"": 1, ""C"": 1, ""Java"": 1, ""JavaScript"": 2}"
+-- https://go.dev/pkg/html/template/,0.98s,216.239.38.21,California,"{""Go"": 41, ""JavaScript"": 10, ""C"": 6}"
+-- https://go.dev/pkg/net/http/,1.05s,216.239.38.21,California,"{""Go"": 51}"
+https://www.ekzhang.com,0.16s,185.199.110.153,California,"{""Rust"": 1}"
+-- https://www.ekzhang.com/,0.12s,185.199.110.153,California,"{""Rust"": 1}"
+-- https://www.ekzhang.com/writing,0.13s,185.199.110.153,California,{}
+-- https://www.ekzhang.com/resume,0.14s,185.199.110.153,California,"{""Rust"": 6, ""C"": 1, ""Go"": 2, ""Python"": 2, ""JavaScript"": 1}"
+-- https://www.ekzhang.com/favicon.svg,0.14s,185.199.110.153,California,{}
+-- https://www.ekzhang.com/projects,0.13s,185.199.110.153,California,"{""Rust"": 21, ""TypeScript"": 6, ""Python"": 10, ""Go"": 1, ""JavaScript"": 5, ""C"": 8, ""Java"": 4}"
+---- https://www.ekzhang.com/_app/immutable/assets/redis-rope.e1e2ba4e.svg,0.16s,185.199.110.153,California,{}
+---- https://www.ekzhang.com/graphics-workshop/,0.17s,185.199.110.153,California,{}
+https://gwern.net,0.91s,172.67.71.73,California,"{""Haskell"": 7, ""JavaScript"": 2}"
+-- https://gwern.net/lewis-meditation,0.95s,172.67.71.73,California,"{""JavaScript"": 3}"
+-- https://gwern.net/doc/anime/eva/2003-rahxephoncomplete-anno-izubuchi,0.99s,172.67.71.73,California,"{""JavaScript"": 3, ""Go"": 1}"
+-- https://gwern.net/terrorism-is-not-effective,1.10s,172.67.71.73,California,"{""JavaScript"": 3, ""Python"": 1, ""C"": 5}"
+-- https://gwern.net/melon,1.24s,172.67.71.73,California,"{""JavaScript"": 3}"
+-- https://gwern.net/doc/index,1.20s,172.67.71.73,California,"{""JavaScript"": 2, ""C"": 2, ""Haskell"": 2, ""Lisp"": 4, ""Python"": 2}"
+-- https://gwern.net/ab-test,1.34s,172.67.71.73,California,"{""JavaScript"": 6, ""C"": 6, ""Python"": 3, ""Go"": 1}"
+-- https://gwern.net/review/anime,1.52s,172.67.71.73,California,"{""JavaScript"": 3, ""Go"": 2, ""C"": 1, ""Shell"": 4, ""Python"": 1, ""Ruby"": 1}"
+-- https://gwern.net/doc/existential-risk/1985-hofstadter,1.59s,172.67.71.73,California,"{""JavaScript"": 3, ""C"": 38}"
+-- https://gwern.net/math-error,1.73s,172.67.71.73,California,"{""JavaScript"": 3, ""C"": 5}"
+https://evjang.com,0.20s,185.199.110.153,California,{}
+-- https://evjang.com/2020/11/28/moravec-bots.html,0.18s,185.199.110.153,California,{}
+-- https://evjang.com/2019/12/25/aaai.html,0.17s,185.199.110.153,California,{}
+-- https://evjang.com/2019/02/21/maml-jax.html,0.18s,185.199.110.153,California,{}
+-- https://evjang.com/feed.xml,0.23s,185.199.110.153,California,"{""Python"": 2, ""Go"": 2}"
+-- https://evjang.com/2018/12/28/uncertainty.html,0.43s,185.199.110.153,California,{}
+-- https://evjang.com/2021/02/13/backprop.html,0.44s,185.199.110.153,California,{}
+-- https://evjang.com/2022/04/25/rome.html,0.43s,185.199.110.153,California,{}
+-- https://evjang.com/about/,0.46s,185.199.110.153,California,{}
+-- https://evjang.com/2021/10/23/generalization.html,0.46s,185.199.110.153,California,"{""Go"": 4}"
