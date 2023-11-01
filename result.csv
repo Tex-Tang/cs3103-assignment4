@@ -1,51 +1,796 @@
-URL,SEQ,START,END,DURATION
-http://paulgraham.com,1,01:23:15.447330,01:23:15.968258,0.52s
--- http://paulgraham.com/antispam.html,2,01:23:15.968259,01:23:16.537572,0.57s
--- http://paulgraham.com/info.html,3,01:23:15.968316,01:23:16.523465,0.56s
--- http://paulgraham.com/greatwork.html,4,01:23:15.969143,01:23:16.898093,0.93s
--- http://paulgraham.com/lisp.html,5,01:23:15.970091,01:23:16.532565,0.56s
----- http://paulgraham.com/lispcode.html,47,01:23:16.532565,01:23:18.352602,1.82s
----- http://paulgraham.com/quotes.html,48,01:23:16.532572,01:23:18.671392,2.14s
----- http://paulgraham.com/lisphistory.html,49,01:23:16.532583,01:23:18.667600,2.14s
----- http://paulgraham.com/lisplinks.html,50,01:23:16.532588,01:23:18.592320,2.06s
--- http://paulgraham.com/articles.html,6,01:23:15.970479,01:23:16.551454,0.58s
--- http://paulgraham.com/kedrosky.html,7,01:23:15.972195,01:23:16.531960,0.56s
----- http://paulgraham.com/wids.html,44,01:23:16.531961,01:23:18.145186,1.61s
----- http://paulgraham.com/ff.html,45,01:23:16.532544,01:23:18.147609,1.62s
----- http://paulgraham.com/accents.html,46,01:23:16.532554,01:23:18.204055,1.67s
--- http://paulgraham.com/raq.html,8,01:23:15.973696,01:23:16.532839,0.56s
--- http://paulgraham.com/ind.html,9,01:23:15.974387,01:23:16.482139,0.51s
----- http://paulgraham.com/okung.html,18,01:23:16.482140,01:23:17.083554,0.60s
----- http://paulgraham.com/matador.html,19,01:23:16.482409,01:23:17.093607,0.61s
----- http://paulgraham.com/04magnum.html,20,01:23:16.482427,01:23:17.083550,0.60s
----- http://paulgraham.com/6631327.html,21,01:23:16.482437,01:23:17.083558,0.60s
----- http://paulgraham.com/laundry.html,22,01:23:16.482444,01:23:17.297982,0.82s
----- http://paulgraham.com/59eldorado.html,23,01:23:16.482451,01:23:17.083546,0.60s
----- http://paulgraham.com/spam.html,24,01:23:16.482457,01:23:17.674738,1.19s
----- http://paulgraham.com/12aug95.html,25,01:23:16.482462,01:23:17.435145,0.95s
----- http://paulgraham.com/own.html,26,01:23:16.482468,01:23:17.536117,1.05s
----- http://paulgraham.com/aarstevzakwi.html,27,01:23:16.482477,01:23:17.550784,1.07s
----- http://paulgraham.com/venturecapital.html,28,01:23:16.482483,01:23:17.562009,1.08s
----- http://paulgraham.com/firefox.html,29,01:23:16.482489,01:23:17.582569,1.10s
----- http://paulgraham.com/ind_1.html,30,01:23:16.482495,01:23:17.559512,1.08s
----- http://paulgraham.com/1974-911s.html,31,01:23:16.482500,01:23:17.575982,1.09s
----- http://paulgraham.com/ycombinator.html,32,01:23:16.482506,01:23:17.582068,1.10s
----- http://paulgraham.com/word.html,33,01:23:16.482518,01:23:17.628068,1.15s
----- http://paulgraham.com/tricked.html,34,01:23:16.482524,01:23:17.629199,1.15s
----- http://paulgraham.com/75eldorado.html,35,01:23:16.482530,01:23:17.822234,1.34s
----- http://paulgraham.com/fundraising.html,36,01:23:16.482536,01:23:18.167871,1.69s
----- http://paulgraham.com/index.html,37,01:23:16.482600,01:23:18.067517,1.58s
----- http://paulgraham.com/revolution.html,38,01:23:16.482672,01:23:18.070071,1.59s
----- http://paulgraham.com/bias.html,39,01:23:16.482689,01:23:18.088151,1.61s
----- http://paulgraham.com/klein.html,40,01:23:16.482695,01:23:18.084486,1.60s
----- http://paulgraham.com/mit.html,41,01:23:16.482701,01:23:18.354804,1.87s
----- http://paulgraham.com/yctable.html,42,01:23:16.482707,01:23:18.134810,1.65s
--- http://paulgraham.com/quo.html,10,01:23:15.975437,01:23:16.907724,0.93s
--- http://paulgraham.com/bio.html,11,01:23:15.976205,01:23:16.523470,0.55s
--- http://paulgraham.com/bel.html,12,01:23:15.977473,01:23:16.526979,0.55s
----- http://paulgraham.com/rootsoflisp.html,43,01:23:16.526980,01:23:18.136116,1.61s
--- http://paulgraham.com/arc.html,13,01:23:15.978359,01:23:16.534421,0.56s
--- http://paulgraham.com/books.html,14,01:23:15.979223,01:23:16.998051,1.02s
--- http://paulgraham.com/faq.html,15,01:23:15.979460,01:23:17.058526,1.08s
--- http://paulgraham.com/rss.html,16,01:23:15.979474,01:23:17.083495,1.10s
--- http://paulgraham.com/superlinear.html,17,01:23:15.979487,01:23:17.045618,1.07s
+URL,DURATION,IP_ADDRESS,GEOLOCATION,LANGUAGES
+http://paulgraham.com,1.01s,52.4.160.184,,{}
+-- http://paulgraham.com/ind.html,0.62s,52.204.244.237,,{}
+---- http://paulgraham.com/firefox.html,0.51s,52.4.160.184,,{}
+---- http://paulgraham.com/75eldorado.html,0.53s,52.4.160.184,,{}
+---- http://paulgraham.com/04magnum.html,0.55s,52.4.160.184,,{}
+---- http://paulgraham.com/klein.html,0.65s,52.4.160.184,,{}
+---- http://paulgraham.com/aarstevzakwi.html,0.53s,52.4.160.184,,{}
+---- http://paulgraham.com/word.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/mit.html,0.92s,52.4.160.184,,"{""Java"": 1, ""Ruby"": 1, ""Python"": 1}"
+---- http://paulgraham.com/ind_1.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/ycombinator.html,0.55s,52.4.160.184,,{}
+---- http://paulgraham.com/59eldorado.html,3.39s,52.4.160.184,,{}
+---- http://paulgraham.com/venturecapital.html,0.53s,52.4.160.184,,{}
+---- http://paulgraham.com/matador.html,0.65s,52.4.160.184,,{}
+---- http://paulgraham.com/yctable.html,0.58s,52.4.160.184,,{}
+---- http://paulgraham.com/spam.html,0.77s,52.4.160.184,,{}
+---- http://paulgraham.com/index.html,0.51s,52.4.160.184,,{}
+---- http://paulgraham.com/own.html,0.67s,52.4.160.184,,{}
+---- http://paulgraham.com/revolution.html,3.64s,52.4.160.184,,{}
+---- http://paulgraham.com/6631327.html,0.63s,52.4.160.184,,{}
+---- http://paulgraham.com/bias.html,0.52s,52.4.160.184,,{}
+---- http://paulgraham.com/fundraising.html,7.31s,52.4.160.184,,{}
+---- http://paulgraham.com/okung.html,0.52s,52.4.160.184,,{}
+---- http://paulgraham.com/12aug95.html,0.58s,52.4.160.184,,{}
+---- http://paulgraham.com/1974-911s.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/tricked.html,0.62s,52.4.160.184,,{}
+---- http://paulgraham.com/laundry.html,0.84s,52.4.160.184,,{}
+-- http://paulgraham.com/rss.html,0.63s,52.204.244.237,,{}
+-- http://paulgraham.com/faq.html,0.66s,52.204.244.237,,{}
+---- http://paulgraham.com/startupfaq.html,0.59s,52.4.160.184,,{}
+---- http://paulgraham.com/arcfaq.html,0.50s,52.4.160.184,,{}
+---- http://paulgraham.com/ffbfaq.html,0.54s,52.4.160.184,,{}
+---- http://paulgraham.com/gfaq.html,0.57s,52.4.160.184,,{}
+---- http://paulgraham.com/pfaq.html,0.58s,52.4.160.184,,"{""Python"": 1, ""Java"": 1, ""C++"": 1, ""C"": 1}"
+---- http://paulgraham.com/vwfaq.html,0.59s,52.4.160.184,,{}
+---- http://paulgraham.com/spamfaq.html,0.53s,52.4.160.184,,"{""Ruby"": 1}"
+---- http://paulgraham.com/lispfaq1.html,0.55s,52.4.160.184,,{}
+-- http://paulgraham.com/books.html,0.65s,52.204.244.237,,{}
+---- http://paulgraham.com/onlisp.html,0.62s,52.4.160.184,,{}
+---- http://paulgraham.com/acl.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/hackpaint.html,0.65s,52.4.160.184,,{}
+-- http://paulgraham.com/kedrosky.html,0.63s,52.204.244.237,,{}
+---- http://paulgraham.com/ff.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/wids.html,0.67s,52.4.160.184,,{}
+---- http://paulgraham.com/accents.html,0.68s,52.4.160.184,,{}
+-- http://paulgraham.com/superlinear.html,0.87s,52.204.244.237,,{}
+---- http://paulgraham.com/think.html,0.67s,52.4.160.184,,{}
+---- http://paulgraham.com/richnow.html,0.54s,52.4.160.184,,{}
+---- http://paulgraham.com/worked.html,0.90s,52.4.160.184,,"{""C"": 2, ""C++"": 1}"
+-- http://paulgraham.com/articles.html,0.67s,52.204.244.237,,"{""Python"": 1}"
+---- http://paulgraham.com/goodart.html,0.65s,52.4.160.184,,{}
+---- http://paulgraham.com/submarine.html,0.61s,52.4.160.184,,{}
+---- http://paulgraham.com/conformism.html,0.62s,52.4.160.184,,{}
+---- http://paulgraham.com/tablets.html,0.64s,52.4.160.184,,{}
+---- http://paulgraham.com/cities.html,0.64s,52.4.160.184,,{}
+---- http://paulgraham.com/prcmc.html,0.65s,52.4.160.184,,{}
+---- http://paulgraham.com/charisma.html,0.64s,52.4.160.184,,{}
+---- http://paulgraham.com/lies.html,1.01s,52.4.160.184,,{}
+---- http://paulgraham.com/re.html,0.89s,52.4.160.184,,{}
+---- http://paulgraham.com/really.html,0.89s,52.4.160.184,,{}
+---- http://paulgraham.com/start.html,0.89s,52.4.160.184,,{}
+---- http://paulgraham.com/superangels.html,0.64s,52.4.160.184,,{}
+---- http://paulgraham.com/hwh.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/hp.html,0.90s,52.4.160.184,,"{""Perl"": 1}"
+---- http://paulgraham.com/hundred.html,0.92s,52.4.160.184,,"{""Java"": 1, ""Perl"": 1, ""Python"": 1}"
+---- http://paulgraham.com/nthings.html,0.65s,52.4.160.184,,{}
+---- http://paulgraham.com/nft.html,0.68s,52.4.160.184,,{}
+---- http://paulgraham.com/convince.html,0.67s,52.4.160.184,,{}
+---- http://paulgraham.com/13sentences.html,0.70s,52.4.160.184,,"{""Go"": 1}"
+---- http://paulgraham.com/airbnb.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/ladder.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/noop.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/altair.html,0.67s,52.4.160.184,,{}
+---- http://paulgraham.com/schlep.html,0.77s,52.4.160.184,,{}
+---- http://paulgraham.com/earnest.html,0.79s,52.4.160.184,,{}
+---- http://paulgraham.com/road.html,0.88s,52.4.160.184,,"{""C"": 4, ""Java"": 2, ""Perl"": 1}"
+---- http://paulgraham.com/startupmistakes.html,0.89s,52.4.160.184,,{}
+---- http://paulgraham.com/name.html,0.63s,52.4.160.184,,{}
+---- http://paulgraham.com/googles.html,0.66s,52.4.160.184,,{}
+---- http://paulgraham.com/pow.html,0.65s,52.4.160.184,,{}
+---- http://paulgraham.com/microsoft.html,0.63s,52.4.160.184,,{}
+---- http://paulgraham.com/notnot.html,0.89s,52.4.160.184,,{}
+---- http://paulgraham.com/webstartups.html,0.67s,52.4.160.184,,{}
+---- http://paulgraham.com/kate.html,0.74s,52.4.160.184,,{}
+---- http://paulgraham.com/seesv.html,0.68s,52.4.160.184,,{}
+---- http://paulgraham.com/foundersatwork.html,0.80s,52.4.160.184,,{}
+---- http://paulgraham.com/college.html,0.63s,52.4.160.184,,"{""Ruby"": 1}"
+---- http://paulgraham.com/marginal.html,1.02s,52.4.160.184,,"{""C"": 1}"
+---- http://paulgraham.com/nov.html,0.64s,52.4.160.184,,{}
+---- http://paulgraham.com/fp.html,0.62s,52.4.160.184,,{}
+---- http://paulgraham.com/ineq.html,0.65s,52.4.160.184,,{}
+-- http://paulgraham.com/lisp.html,0.56s,52.204.244.237,,{}
+-- http://paulgraham.com/arc.html,0.57s,52.204.244.237,,{}
+-- http://paulgraham.com/greatwork.html,0.82s,52.4.160.184,,{}
+-- http://paulgraham.com/quo.html,0.86s,52.204.244.237,,{}
+-- http://paulgraham.com/bel.html,0.67s,52.204.244.237,,{}
+-- http://paulgraham.com/raq.html,0.64s,52.204.244.237,,"{""Perl"": 1}"
+-- http://paulgraham.com/antispam.html,0.65s,52.204.244.237,,{}
+-- http://paulgraham.com/bio.html,0.62s,52.204.244.237,,{}
+-- http://paulgraham.com/info.html,7.09s,52.4.160.184,,{}
+https://www.benkuhn.net,0.67s,18.65.25.32,,{}
+-- https://www.benkuhn.net/hi/,0.66s,18.65.25.32,,{}
+-- https://www.benkuhn.net/writing/,0.66s,18.65.25.32,,{}
+---- https://www.benkuhn.net/why-im-taking-operating-systems/,0.59s,18.65.25.32,,"{""Python"": 1}"
+---- https://www.benkuhn.net/ea-outsiders/,0.76s,18.65.25.32,,{}
+---- https://www.benkuhn.net/causreg/,0.64s,18.65.25.32,,{}
+---- https://www.benkuhn.net/tag/scraps/,0.67s,18.65.25.32,,{}
+---- https://www.benkuhn.net/downgrading-confidence-earning-give/,0.66s,18.65.25.32,,{}
+---- https://www.benkuhn.net/second-order-vanity/,0.66s,18.65.25.32,,{}
+---- https://www.benkuhn.net/clawback/,0.65s,18.65.25.32,,{}
+---- https://www.benkuhn.net/writing-clarify-thoughts/,0.77s,18.65.25.32,,{}
+---- https://www.benkuhn.net/self-vs-charity/,0.86s,18.65.25.32,,{}
+---- https://www.benkuhn.net/TK,0.87s,18.65.25.32,,{}
+---- https://www.benkuhn.net/www-prefix/,0.88s,18.65.25.32,,{}
+---- https://www.benkuhn.net/things-i-learned-toby-ord/,0.59s,18.65.25.32,,{}
+---- https://www.benkuhn.net/blogging/,0.82s,18.65.25.32,,{}
+---- https://www.benkuhn.net/etg-objections/,0.77s,18.65.25.32,,{}
+---- https://www.benkuhn.net/stress/,0.76s,18.65.25.32,,{}
+-- https://www.benkuhn.net/college/,0.65s,18.65.25.32,,{}
+---- https://www.benkuhn.net/updates/,0.65s,18.65.25.32,,{}
+---- https://www.benkuhn.net/hw/,0.65s,18.65.25.32,,{}
+---- https://www.benkuhn.net/h/,0.76s,18.65.25.32,,{}
+---- https://www.benkuhn.net/gened,0.92s,18.65.25.32,,{}
+-- https://www.benkuhn.net/analytics/,0.65s,18.65.25.32,,{}
+-- https://www.benkuhn.net/blogroll/,0.65s,18.65.25.32,,{}
+---- https://www.benkuhn.net/contact/,0.61s,18.65.25.32,,{}
+-- https://www.benkuhn.net/,0.65s,18.65.25.32,,{}
+-- https://www.benkuhn.net/gradual/,0.66s,18.65.25.32,,"{""Python"": 1, ""Java"": 2}"
+---- https://www.benkuhn.net/autocomplete,0.79s,18.65.25.32,,"{""Python"": 4, ""C++"": 1, ""Objective-C"": 3}"
+---- https://www.benkuhn.net/hatch,0.93s,18.65.25.32,,"{""Python"": 2}"
+-- https://www.benkuhn.net/lux/,0.66s,18.65.25.32,,{}
+---- https://www.benkuhn.net/aff/,0.90s,18.65.25.32,,{}
+-- https://www.benkuhn.net/weekly/,0.66s,18.65.25.32,,{}
+---- https://www.benkuhn.net/inbox/,1.21s,18.65.25.32,,{}
+---- https://www.benkuhn.net/50pct/,0.87s,18.65.25.32,,{}
+-- https://www.benkuhn.net/progessays/,0.65s,18.65.25.32,,{}
+-- https://www.benkuhn.net/overconfidence/,0.67s,18.65.25.32,,{}
+---- https://www.benkuhn.net/vc-emh/,0.73s,18.65.25.32,,{}
+---- https://www.benkuhn.net/prob/,0.79s,18.65.25.32,,{}
+-- https://www.benkuhn.net/index.xml,0.86s,18.65.25.32,,{}
+-- https://www.benkuhn.net/corona/,0.58s,18.65.25.32,,{}
+-- https://www.benkuhn.net/zero/,0.65s,18.65.25.32,,{}
+---- https://www.benkuhn.net/zero,0.84s,18.65.25.32,,{}
+---- https://www.benkuhn.net/50pct,0.88s,18.65.25.32,,{}
+-- https://www.benkuhn.net/autocomplete/,0.66s,18.65.25.32,,"{""Python"": 4, ""C++"": 1, ""Objective-C"": 3}"
+-- https://www.benkuhn.net/emco/,0.64s,18.65.25.32,,{}
+---- https://www.benkuhn.net/hip/,0.64s,18.65.25.32,,{}
+---- https://www.benkuhn.net/work/,0.72s,18.65.25.32,,{}
+-- https://www.benkuhn.net/blub/,0.65s,18.65.25.32,,"{""Python"": 2, ""C"": 2}"
+-- https://www.benkuhn.net/syntax/,0.57s,18.65.25.32,,"{""Python"": 1}"
+---- https://www.benkuhn.net/caw-start/,0.62s,18.65.25.32,,{}
+---- https://www.benkuhn.net/caw-tips/,0.59s,18.65.25.32,,{}
+---- https://www.benkuhn.net/tried/,0.97s,18.65.25.32,,{}
+-- https://www.benkuhn.net/macovid/,0.64s,18.65.25.32,,{}
+-- https://www.benkuhn.net/vcnet/,0.65s,18.65.25.32,,{}
+---- https://www.benkuhn.net/blipper/,0.87s,18.65.25.32,,{}
+---- https://www.benkuhn.net/ublock/,1.19s,18.65.25.32,,{}
+-- https://www.benkuhn.net/focustools/,0.67s,18.65.25.32,,{}
+-- https://www.benkuhn.net/impatient/,0.64s,18.65.25.32,,{}
+-- https://www.benkuhn.net/weeklyessays/,0.84s,18.65.25.32,,{}
+-- https://www.benkuhn.net/krss/,0.90s,18.65.25.32,,{}
+---- https://www.benkuhn.net/www.feedreader.com,0.71s,18.65.25.32,,{}
+---- https://www.benkuhn.net/blogroll,0.85s,18.65.25.32,,{}
+---- https://www.benkuhn.net/product,1.01s,18.65.25.32,,{}
+-- https://www.benkuhn.net/iow/,0.62s,18.65.25.32,,{}
+-- https://www.benkuhn.net/cf-plants/,0.65s,18.65.25.32,,{}
+---- https://www.benkuhn.net/optopt/,0.63s,18.65.25.32,,{}
+---- https://www.benkuhn.net/lm-work/,1.63s,18.65.25.32,,{}
+-- https://www.benkuhn.net/offer/,0.77s,18.65.25.32,,{}
+---- https://www.benkuhn.net/late/,0.70s,18.65.25.32,,{}
+---- https://www.benkuhn.net/terms,0.89s,18.65.25.32,,{}
+---- https://www.benkuhn.net/options,0.93s,18.65.25.32,,{}
+---- https://www.benkuhn.net/optopt,1.10s,18.65.25.32,,{}
+-- https://www.benkuhn.net/grad/,0.63s,18.65.25.32,,{}
+---- https://www.benkuhn.net/gened/,0.64s,18.65.25.32,,{}
+---- https://www.benkuhn.net/nonprog,1.25s,18.65.25.32,,"{""Go"": 1}"
+-- https://www.benkuhn.net/skinner/,0.68s,18.65.25.32,,{}
+---- https://www.benkuhn.net/product/,0.77s,18.65.25.32,,{}
+-- https://www.benkuhn.net/abyss/,0.74s,18.65.25.32,,{}
+-- https://www.benkuhn.net/bigco/,0.67s,18.65.25.32,,{}
+-- https://www.benkuhn.net/vc/,0.70s,18.65.25.32,,{}
+-- https://www.benkuhn.net/11/,0.67s,18.65.25.32,,{}
+---- https://www.benkuhn.net/grad,0.86s,18.65.25.32,,{}
+---- https://www.benkuhn.net/oo/,0.66s,18.65.25.32,,{}
+-- https://www.benkuhn.net/hiking/,0.66s,18.65.25.32,,{}
+-- https://www.benkuhn.net/squared/,0.82s,18.65.25.32,,{}
+-- https://www.benkuhn.net/listen/,0.66s,18.65.25.32,,{}
+-- https://www.benkuhn.net/wnf/,0.62s,18.65.25.32,,{}
+-- https://www.benkuhn.net/all/,0.60s,18.65.25.32,,{}
+-- https://www.benkuhn.net/10x/,0.65s,18.65.25.32,,{}
+-- https://www.benkuhn.net/wireless/,0.75s,18.65.25.32,,{}
+-- https://www.benkuhn.net/nwe/,0.65s,18.65.25.32,,{}
+-- https://www.benkuhn.net/newmgr/,0.76s,18.65.25.32,,{}
+-- https://www.benkuhn.net/conviction/,0.64s,18.65.25.32,,{}
+-- https://www.benkuhn.net/attention/,0.64s,18.65.25.32,,{}
+-- https://www.benkuhn.net/outliers/,0.65s,18.65.25.32,,{}
+-- https://www.benkuhn.net/thinkrealhard/,0.65s,18.65.25.32,,{}
+-- https://www.benkuhn.net/hard/,0.65s,18.65.25.32,,{}
+-- https://www.benkuhn.net/giving-2018/,0.62s,18.65.25.32,,{}
+-- https://www.benkuhn.net/leaving/,0.59s,18.65.25.32,,{}
+https://danluu.com,0.07s,172.67.197.156,,{}
+-- https://danluu.com/slashdot-sourceforge/,0.10s,172.67.197.156,,{}
+-- https://danluu.com/file-consistency/,0.09s,172.67.197.156,,{}
+-- https://danluu.com/input-lag/,0.10s,172.67.197.156,,{}
+-- https://danluu.com/infinite-disk/,0.12s,172.67.197.156,,{}
+-- https://danluu.com/math-bias/,0.12s,172.67.197.156,,{}
+-- https://danluu.com/latency-pitfalls/,0.11s,172.67.197.156,,{}
+-- https://danluu.com/bugalytics/,0.13s,172.67.197.156,,{}
+-- https://danluu.com/yegge-predictions/,0.11s,172.67.197.156,,"{""Go"": 1, ""Java"": 2, ""C#"": 1}"
+-- https://danluu.com/look-stupid/,0.11s,172.67.197.156,,{}
+-- https://danluu.com/tech-discrimination/,0.11s,172.67.197.156,,{}
+-- https://danluu.com/programming-books/,0.11s,172.67.197.156,,"{""Python"": 1}"
+-- https://danluu.com/empirical-pl/,0.11s,172.67.197.156,,"{""TypeScript"": 7, ""Perl"": 3, ""Ruby"": 6, ""Java"": 13, ""C"": 13, ""Go"": 4, ""C++"": 5, ""Groovy"": 2, ""Haskell"": 2, ""Python"": 6, ""Rust"": 1}"
+-- https://danluu.com/linux-devs-say/,0.07s,172.67.197.156,,{}
+-- https://danluu.com/3c-conflict/,0.06s,172.67.197.156,,{}
+-- https://danluu.com/keyboard-v-mouse/,0.07s,172.67.197.156,,{}
+-- https://danluu.com/cli-complexity/,0.08s,172.67.197.156,,"{""PHP"": 2, ""C"": 1}"
+-- https://danluu.com/filesystem-errors/,0.08s,172.67.197.156,,"{""C"": 1}"
+-- https://danluu.com/corrections/,0.07s,172.67.197.156,,{}
+-- https://danluu.com/randomize-hn/,0.08s,172.67.197.156,,{}
+-- https://danluu.com/programmer-moneyball/,0.07s,172.67.197.156,,"{""JavaScript"": 1}"
+-- https://danluu.com/programming-blogs/,0.07s,172.67.197.156,,"{""C++"": 2, ""JavaScript"": 1, ""Go"": 2, ""C"": 2, ""Python"": 3, ""Java"": 1}"
+-- https://danluu.com/cpu-backdoors/,0.13s,172.67.197.156,,"{""JavaScript"": 3}"
+-- https://danluu.com/julialang/,0.08s,172.67.197.156,,"{""Python"": 1, ""Ruby"": 1}"
+-- https://danluu.com/google-sre-book/,0.07s,172.67.197.156,,"{""Java"": 1, ""C"": 1}"
+-- https://danluu.com/boring-languages/,0.10s,172.67.197.156,,"{""Java"": 1, ""Python"": 1, ""C++"": 2}"
+-- https://danluu.com/cocktail-ideas/,0.10s,172.67.197.156,,{}
+-- https://danluu.com/hardware-unforgiving/,0.11s,172.67.197.156,,{}
+-- https://danluu.com/tests-v-reason/,0.27s,172.67.197.156,,{}
+-- https://danluu.com/overwatch-gender/,0.27s,172.67.197.156,,{}
+-- https://danluu.com/limplock/,0.24s,172.67.197.156,,"{""C"": 1}"
+-- https://danluu.com/testing/,0.22s,172.67.197.156,,"{""JavaScript"": 1}"
+-- https://danluu.com/branch-prediction/,0.23s,172.67.197.156,,{}
+-- https://danluu.com/clwb-pcommit/,0.22s,172.67.197.156,,{}
+-- https://danluu.com/cgroup-throttling/,0.23s,172.67.197.156,,"{""Go"": 1}"
+-- https://danluu.com/learn-what/,0.21s,172.67.197.156,,"{""Haskell"": 1}"
+-- https://danluu.com/teach-debugging/,0.23s,172.67.197.156,,{}
+-- https://danluu.com/corp-eng-blogs/,0.22s,172.67.197.156,,{}
+-- https://danluu.com/cache-incidents/,0.21s,172.67.197.156,,"{""Ruby"": 2, ""C++"": 1}"
+-- https://danluu.com/deconstruct-files/,0.20s,172.67.197.156,,{}
+-- https://danluu.com/postmortem-lessons/,0.22s,172.67.197.156,,"{""Go"": 1}"
+-- https://danluu.com/blog-ads/,0.18s,172.67.197.156,,{}
+-- https://danluu.com/keyboard-latency/,0.21s,172.67.197.156,,{}
+-- https://danluu.com/octopress-speedup/,0.22s,172.67.197.156,,"{""Ruby"": 1, ""C++"": 1}"
+-- https://danluu.com/people-matter/,0.24s,172.67.197.156,,{}
+-- https://danluu.com/pl-troll/,0.21s,172.67.197.156,,{}
+-- https://danluu.com/startup-tradeoffs/,0.20s,172.67.197.156,,{}
+-- https://danluu.com/essential-complexity/,0.22s,172.67.197.156,,"{""C"": 2, ""Python"": 3, ""Rust"": 4}"
+-- https://danluu.com/atom.xml,0.40s,172.67.197.156,,"{""Go"": 15, ""Java"": 78, ""Python"": 21, ""Ruby"": 11, ""C++"": 150, ""Haskell"": 13, ""C"": 155, ""Rust"": 12, ""Dart"": 3, ""PHP"": 2, ""Perl"": 13, ""C#"": 3, ""JavaScript"": 9, ""TypeScript"": 7, ""Groovy"": 2, ""Assembly"": 2}"
+-- https://danluu.com/algorithms-interviews/,0.23s,172.67.197.156,,{}
+-- https://danluu.com/linear-hammer/,0.24s,172.67.197.156,,{}
+-- https://danluu.com/butler-lampson-1999/,0.08s,172.67.197.156,,"{""Rust"": 1, ""C++"": 1, ""Java"": 1, ""JavaScript"": 2, ""C"": 1, ""C#"": 1, ""Go"": 1}"
+-- https://danluu.com/hiring-lemons/,0.08s,172.67.197.156,,{}
+-- https://danluu.com/malloc-tutorial/,0.26s,172.67.197.156,,"{""C"": 2}"
+-- https://danluu.com/navigate-url/,0.27s,172.67.197.156,,{}
+-- https://danluu.com/wat/,0.26s,172.67.197.156,,"{""Python"": 1}"
+-- https://danluu.com/bimodal-compensation/,0.09s,172.67.197.156,,{}
+-- https://danluu.com/futurist-predictions/,0.09s,172.67.197.156,,"{""Java"": 1}"
+-- https://danluu.com/discourage-oss/,0.09s,172.67.197.156,,{}
+-- https://danluu.com/why-ecc/,0.24s,172.67.197.156,,"{""Java"": 1}"
+-- https://danluu.com/web-bloat/,0.18s,172.67.197.156,,{}
+-- https://danluu.com/talent/,0.14s,172.67.197.156,,{}
+-- https://danluu.com/new-cpu-features/,0.13s,172.67.197.156,,"{""C"": 1, ""C++"": 1}"
+-- https://danluu.com/googlebot-monopoly/,0.15s,172.67.197.156,,{}
+-- https://danluu.com/in-house/,0.13s,172.67.197.156,,{}
+-- https://danluu.com/integer-overflow/,0.15s,172.67.197.156,,"{""C"": 1}"
+-- https://danluu.com/percentile-latency/,0.18s,172.67.197.156,,{}
+-- https://danluu.com/culture/,0.14s,172.67.197.156,,{}
+-- https://danluu.com/discontinuities/,0.14s,172.67.197.156,,"{""C"": 2}"
+-- https://danluu.com/startup-options/,0.16s,172.67.197.156,,{}
+-- https://danluu.com/bad-decisions/,0.15s,172.67.197.156,,{}
+-- https://danluu.com/writing-non-advice/,0.18s,172.67.197.156,,{}
+-- https://danluu.com/sattolo/,0.05s,172.67.197.156,,{}
+-- https://danluu.com/metrics-analytics/,0.21s,172.67.197.156,,{}
+-- https://danluu.com/customer-service/,0.22s,172.67.197.156,,{}
+-- https://danluu.com/productivity-velocity/,0.22s,172.67.197.156,,{}
+-- https://danluu.com/ui-compatibility/,0.21s,172.67.197.156,,{}
+-- https://danluu.com/why-benchmark/,0.21s,172.67.197.156,,{}
+-- https://danluu.com/nothing-works/,0.21s,172.67.197.156,,{}
+-- https://danluu.com/monorepo/,0.23s,172.67.197.156,,"{""C"": 1}"
+-- https://danluu.com/everything-is-broken/,0.05s,172.67.197.156,,"{""C++"": 1, ""C"": 2, ""Rust"": 3}"
+-- https://danluu.com/tracing-analytics/,0.23s,172.67.197.156,,"{""C"": 5}"
+-- https://danluu.com/hn-comments/,0.25s,172.67.197.156,,"{""C++"": 1}"
+-- https://danluu.com/term-latency/,0.22s,172.67.197.156,,"{""Rust"": 2}"
+-- https://danluu.com/gender-gap/,0.25s,172.67.197.156,,{}
+-- https://danluu.com/android-updates/,0.15s,172.67.197.156,,{}
+-- https://danluu.com/broken-builds/,0.17s,172.67.197.156,,{}
+-- https://danluu.com/perf-tracing/,0.17s,172.67.197.156,,{}
+-- https://danluu.com/sounds-easy/,0.18s,172.67.197.156,,{}
+-- https://danluu.com/edit-binary/,0.18s,172.67.197.156,,{}
+-- https://danluu.com/learning-to-program/,0.09s,172.67.197.156,,"{""Perl"": 7, ""Haskell"": 2, ""Python"": 1, ""Ruby"": 1, ""Rust"": 1}"
+-- https://danluu.com/simple-architectures/,0.12s,172.67.197.156,,"{""Python"": 4}"
+-- https://danluu.com/car-safety/,0.09s,172.67.197.156,,"{""Dart"": 3}"
+-- https://danluu.com/cpu-bugs/,0.09s,172.67.197.156,,{}
+-- https://danluu.com/dunning-kruger/,0.09s,172.67.197.156,,{}
+-- https://danluu.com/concurrency-bugs/,0.10s,172.67.197.156,,"{""C"": 2, ""C#"": 1, ""Java"": 1}"
+-- https://danluu.com/2choices-eviction/,0.12s,172.67.197.156,,{}
+-- https://danluu.com/p95-skill/,0.07s,172.67.197.156,,{}
+-- https://danluu.com/why-hardware-development-is-hard/,0.06s,172.67.197.156,,"{""Java"": 3, ""C"": 2, ""Haskell"": 7, ""JavaScript"": 1}"
+-- https://danluu.com/anon-benchmark/,0.07s,172.67.197.156,,{}
+https://www.swyx.io,0.12s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/rss.xml,0.10s,52.74.166.77,,"{""Python"": 5, ""JavaScript"": 8, ""TypeScript"": 2, ""C"": 1}"
+---- https://www.swyx.io/ranking-1-on-hn-in-mid-april,2.26s,52.74.166.77,,{}
+---- https://www.swyx.io/substack-change-domain,2.70s,52.74.166.77,,{}
+---- https://www.swyx.io/obsidian-brain,2.71s,52.74.166.77,,{}
+---- https://www.swyx.io/api/rss.xml,0.06s,52.74.166.77,,"{""Python"": 5, ""JavaScript"": 8, ""TypeScript"": 2, ""C"": 1}"
+---- https://www.swyx.io/lspace-2022,2.50s,52.74.166.77,,{}
+---- https://www.swyx.io/what-to-do-when-icloud-is-stuck-on-uploading-items,2.45s,52.74.166.77,,"{""C"": 2}"
+---- https://www.swyx.io/fave-podcasts-2020,2.60s,52.74.166.77,,"{""C"": 2}"
+---- https://www.swyx.io/writing/netlify-year-one,2.90s,52.74.166.77,,"{""TypeScript"": 4}"
+---- https://www.swyx.io/fave-podcasts-2021,2.58s,52.74.166.77,,{}
+---- https://www.swyx.io/errors-not-exceptions/,3.36s,52.74.166.77,,"{""Go"": 16}"
+---- https://www.swyx.io/devto-cms,2.28s,52.74.166.77,,{}
+---- https://www.swyx.io/fave-podcasts,3.68s,52.74.166.77,,"{""Python"": 6}"
+---- https://www.swyx.io/part-time-creator-manifesto,3.24s,52.74.166.77,,{}
+---- https://www.swyx.io/github-cms,4.87s,52.74.166.77,,{}
+-- https://www.swyx.io/about/,1.82s,52.74.166.77,,"{""JavaScript"": 1, ""TypeScript"": 1}"
+---- https://www.swyx.io/starting-dev-community-meetup,2.67s,52.74.166.77,,"{""TypeScript"": 2}"
+---- https://www.swyx.io/why-tailwind/,3.10s,52.74.166.77,,{}
+---- https://www.swyx.io/writing/farewell-netlify/,2.93s,52.74.166.77,,{}
+---- https://www.swyx.io/moderating-rreactjs/,2.84s,52.74.166.77,,"{""C++"": 2, ""C"": 2}"
+---- https://www.swyx.io/hello-aws/,3.19s,52.74.166.77,,"{""Swift"": 2}"
+---- https://www.swyx.io/js-third-age,2.58s,52.74.166.77,,"{""JavaScript"": 17, ""Rust"": 2, ""TypeScript"": 2, ""Assembly"": 2}"
+---- https://www.swyx.io/farewell-netlify/,2.75s,52.74.166.77,,{}
+---- https://www.swyx.io/self-provisioning-runtime,2.50s,52.74.166.77,,"{""C++"": 2, ""Java"": 2, ""Go"": 2, ""TypeScript"": 2}"
+---- https://www.swyx.io/paradigm-lost,3.23s,52.74.166.77,,{}
+---- https://www.swyx.io/svelte-why/,2.80s,52.74.166.77,,{}
+---- https://www.swyx.io/svelte-sites-react-apps/,3.02s,52.74.166.77,,"{""Dart"": 2, ""Swift"": 2}"
+---- https://www.swyx.io/writing/hello-aws/,3.74s,52.74.166.77,,"{""Swift"": 2}"
+---- https://www.swyx.io/ideas?filter=React&show=Essays&show=Talks&show=Podcasts,3.61s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/whisper-for-podcasts,2.62s,52.74.166.77,,{}
+-- https://www.swyx.io/traction-vs-trust,2.69s,52.74.166.77,,{}
+---- https://www.swyx.io/ideas?filter=hashtag-startups,3.52s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/latent-space-250k,2.73s,52.74.166.77,,{}
+-- https://www.swyx.io/,0.14s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/writing/getting-closure-on-hooks/,3.30s,52.74.166.77,,"{""JavaScript"": 2}"
+---- https://www.swyx.io/ideas?filter=hashtag-react,5.73s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/ideas?filter=hashtag-tech,6.43s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/ideas?filter=hashtag-open source,7.18s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/ideas?filter=hashtag-learn in public,7.15s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/api-economy/,4.20s,52.74.166.77,,{}
+---- https://www.swyx.io/api-economy,0.07s,52.74.166.77,,{}
+---- https://www.swyx.io/dev-guide-to-tech-strategy/,2.88s,52.74.166.77,,{}
+---- https://www.swyx.io/writing/no-code-lie/,3.42s,52.74.166.77,,{}
+---- https://www.swyx.io/ideas?filter=hashtag-economics,4.27s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/ideas/?show=Talks,4.36s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/reactrally,4.73s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/part-time-creator-manifesto/,2.79s,52.74.166.77,,{}
+---- https://www.swyx.io/swipe-files-strategy,2.55s,52.74.166.77,,{}
+---- https://www.swyx.io/meta-creator-ceiling/,2.45s,52.74.166.77,,"{""C"": 2}"
+---- https://www.swyx.io/friendcatchers/,3.01s,52.74.166.77,,{}
+---- https://www.swyx.io/ideas?filter=hashtag-reflections,4.23s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/ideas?filter=hashtag-creators,4.41s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/quality-vs-consistency/,2.60s,52.74.166.77,,{}
+-- https://www.swyx.io/js-third-age/,4.97s,52.74.166.77,,"{""JavaScript"": 17, ""Rust"": 2, ""TypeScript"": 2, ""Assembly"": 2}"
+---- https://www.swyx.io/third-age-2022,2.45s,52.74.166.77,,"{""JavaScript"": 8, ""Python"": 4}"
+---- https://www.swyx.io/writing/ie11-eol/,2.51s,52.74.166.77,,{}
+---- https://www.swyx.io/ideas?filter=hashtag-javascript,3.45s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/writing/collapsing-layers/,2.51s,46.137.195.11,,"{""JavaScript"": 2, ""TypeScript"": 2}"
+---- https://www.swyx.io/writing/js-20-years/,3.03s,46.137.195.11,,{}
+---- https://www.swyx.io/writing/cloud-distros/,2.70s,46.137.195.11,,"{""C"": 2}"
+---- https://www.swyx.io/writing/react-distros/,3.14s,46.137.195.11,,"{""JavaScript"": 8, ""TypeScript"": 4}"
+---- https://www.swyx.io/writing/jobs-of-js-build-tools/,3.52s,46.137.195.11,,"{""JavaScript"": 42, ""TypeScript"": 4}"
+---- https://www.swyx.io/ideas?filter=third%20age%20of,4.88s,46.137.195.11,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/speaking/svelte-space-elevator/,5.68s,46.137.195.11,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/ideas?filter=hashtag-trends,6.49s,46.137.195.11,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/subscribe,0.39s,52.74.166.77,,{}
+-- https://www.swyx.io/learn-in-public/,2.88s,52.74.166.77,,"{""C"": 2}"
+---- https://www.swyx.io/puwtpd/,2.69s,46.137.195.11,,"{""TypeScript"": 2}"
+---- https://www.swyx.io/learning-gears/,2.84s,46.137.195.11,,"{""Go"": 4}"
+---- https://www.swyx.io/ideas?filter=hashtag-advice,4.46s,46.137.195.11,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/learn-in-private,2.48s,46.137.195.11,,{}
+---- https://www.swyx.io/big-l-notation,2.66s,46.137.195.11,,{}
+---- https://www.swyx.io/writing/learn-in-public-hack,3.18s,46.137.195.11,,"{""TypeScript"": 2}"
+---- https://www.swyx.io/ideas/?filter=open%20source%20your&show=Talk,3.90s,46.137.195.11,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/ideas?filter=hashtag-principles,4.57s,46.137.195.11,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+---- https://www.swyx.io/ideas/?filter=learn%20in%20public,6.81s,46.137.195.11,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/create-luck/,2.78s,52.74.166.77,,{}
+-- https://www.swyx.io/learn-in-public,2.38s,52.74.166.77,,"{""C"": 2}"
+-- https://www.swyx.io/electron-webview-popups,2.70s,52.74.166.77,,{}
+-- https://www.swyx.io/about,0.41s,52.74.166.77,,"{""JavaScript"": 1, ""TypeScript"": 1}"
+-- https://www.swyx.io/pypi-403,2.33s,52.74.166.77,,{}
+-- https://www.swyx.io/solve-git-bad-object-head,2.31s,52.74.166.77,,{}
+-- https://www.swyx.io/netlify-era-jamstack-end,2.51s,52.74.166.77,,"{""C"": 2}"
+-- https://www.swyx.io/hooks,2.77s,52.74.166.77,,"{""JavaScript"": 2}"
+-- https://www.swyx.io/ideas/?show=Talks&show=Podcasts,7.87s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/ideas?filter=babel%20macros&show=Talks,7.35s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/site.webmanifest,0.04s,52.74.166.77,,{}
+-- https://www.swyx.io/why-temporal/,0.31s,52.74.166.77,,"{""C"": 4, ""Ruby"": 2, ""Python"": 2}"
+-- https://www.swyx.io/early-cadence,0.04s,52.74.166.77,,{}
+-- https://www.swyx.io/safari-pinned-tab.svg,2.21s,52.74.166.77,,{}
+-- https://www.swyx.io/cloudflare-go/,2.90s,52.74.166.77,,"{""Go"": 2}"
+-- https://www.swyx.io/ideas/?show=Essays,9.21s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/sg-guide,5.00s,52.74.166.77,,{}
+-- https://www.swyx.io/ideas/?show=Podcast,1.57s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/ideas?filter=contributing%20to%20react,3.37s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/on-grind,2.65s,52.74.166.77,,{}
+-- https://www.swyx.io/ai-landscape,2.96s,52.74.166.77,,{}
+-- https://www.swyx.io/ideas,4.81s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+-- https://www.swyx.io/ideas?filter=learn%20in%20public&show=Talks&show=Tutorials&show=Notes,6.57s,52.74.166.77,,"{""Go"": 35, ""C"": 33, ""Python"": 53, ""TypeScript"": 71, ""JavaScript"": 135, ""Rust"": 5, ""C++"": 2, ""Java"": 10, ""Ruby"": 2, ""PHP"": 4, ""Haskell"": 5, ""Dart"": 1, ""Swift"": 5, ""Assembly"": 1}"
+https://emptysqua.re/blog/,0.08s,52.74.166.77,,"{""Python"": 2, ""C"": 1}"
+-- https://emptysqua.re/blog/about/,0.13s,52.74.166.77,,"{""C"": 1, ""Python"": 4}"
+---- https://emptysqua.re/blog/speaking/,0.44s,52.74.166.77,,"{""Python"": 5}"
+---- https://emptysqua.re/blog/architecture-open-source-applications-500-lines-published,0.08s,52.74.166.77,,"{""Python"": 1, ""JavaScript"": 1}"
+-- https://emptysqua.re/blog/extreme-modelling-in-practice/,0.14s,52.74.166.77,,"{""C++"": 2, ""Python"": 1, ""JavaScript"": 1}"
+---- https://emptysqua.re/blog/tag/distributedsystems/,0.05s,52.74.166.77,,{}
+------ https://emptysqua.re/blog/review-cornus-atomic-commit-for-cloud-storage/,0.36s,52.74.166.77,,"{""JavaScript"": 1}"
+------ https://emptysqua.re/blog/tag/distributedsystems/index.xml,0.43s,52.74.166.77,,"{""C++"": 1}"
+------ https://emptysqua.re/blog/review-rex-replication/,0.44s,52.74.166.77,,"{""JavaScript"": 1}"
+------ https://emptysqua.re/blog/review-distributed-reset/,0.45s,52.74.166.77,,"{""JavaScript"": 1}"
+------ https://emptysqua.re/blog/2022-hpts-notes/,0.45s,52.74.166.77,,"{""Python"": 1, ""Rust"": 1, ""JavaScript"": 1}"
+------ https://emptysqua.re/blog/tag/distributedsystems/page/2,0.72s,52.74.166.77,,{}
+------ https://emptysqua.re/blog/review-paxos-quorum-leases/,0.83s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/tag/best/,0.43s,52.74.166.77,,{}
+------ https://emptysqua.re/blog/tag/best/index.xml,0.56s,52.74.166.77,,"{""C++"": 1}"
+------ https://emptysqua.re/blog/tag/best/page/2,0.99s,52.74.166.77,,{}
+---- https://emptysqua.re/blog/tag/tla+/,0.10s,52.74.166.77,,{}
+------ https://emptysqua.re/blog/tag/tla+/index.xml,0.69s,52.74.166.77,,"{""C++"": 1}"
+------ https://emptysqua.re/blog/interactive-tla-plus/,0.69s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/python-language-summit-2020/,0.08s,52.74.166.77,,"{""Python"": 17, ""JavaScript"": 1}"
+---- https://emptysqua.re/blog/category/research/,0.44s,52.74.166.77,,{}
+---- https://emptysqua.re/blog/american-religion-in-americas-time-of-crisis/,0.35s,52.74.166.77,,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/meteor-dharma-talk/,0.13s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/zmc-san-jacinto/,0.33s,52.74.166.77,,"{""JavaScript"": 1}"
+------ https://emptysqua.re/blog/zmc-white-flowers/,0.41s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/zmc-coco/,0.09s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/tag/dharmatalk/,0.08s,52.74.166.77,,{}
+---- https://emptysqua.re/blog/category/zen/,0.08s,52.74.166.77,,"{""Ruby"": 1}"
+-- https://emptysqua.re/blog/pygotham-2019-asl-live-captioning-playbook/,0.14s,52.74.166.77,,"{""Python"": 2, ""JavaScript"": 1}"
+---- https://emptysqua.re/blog/heartwood-sutta/,0.32s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/category/python/,0.07s,52.74.166.77,,"{""Python"": 8}"
+---- https://emptysqua.re/blog/tag/pygotham/,0.06s,52.74.166.77,,{}
+-- https://emptysqua.re/blog/index.xml,0.15s,52.74.166.77,,"{""Java"": 1, ""Python"": 69, ""Ruby"": 1, ""Rust"": 1, ""C"": 1, ""C++"": 3}"
+-- https://emptysqua.re/blog/falling-commitment-october-2023/,0.40s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/category/photography/,0.35s,52.74.166.77,,"{""Ruby"": 1}"
+---- https://emptysqua.re/blog/tag/climbing/,0.35s,52.74.166.77,,{}
+-- https://emptysqua.re/blog/peterskill-sept-2023/,0.39s,52.74.166.77,,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/understand-non-self-buddhism-game-of-life/,0.41s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/scout-mindset/,0.08s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/july-4-2021/,0.34s,52.74.166.77,,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/review-distributed-transactions-at-scale-dynamodb/,0.41s,52.74.166.77,,"{""Java"": 1, ""JavaScript"": 1}"
+---- https://emptysqua.re/blog/how-to-write-resilient-mongodb-applications,0.32s,52.74.166.77,,"{""Go"": 1, ""Python"": 1, ""JavaScript"": 1}"
+---- https://emptysqua.re/blog/category/review/,0.32s,52.74.166.77,,{}
+---- https://emptysqua.re,0.28s,52.74.166.77,,"{""Python"": 2, ""C"": 1}"
+-- https://emptysqua.re/blog/paxos-vs-raft/,0.06s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/pycon-2021-coaching/,0.05s,52.74.166.77,,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/optimizing-mongodb-compound-indexes/,0.41s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/category/mongodb/,0.04s,52.74.166.77,,"{""Python"": 2}"
+---- https://emptysqua.re/blog/tag/optimization/,0.07s,52.74.166.77,,{}
+---- https://emptysqua.re/blog/eating-your-own-hamster-food/,0.07s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/tag/index/,0.16s,52.74.166.77,,{}
+---- https://emptysqua.re/blog/in-transition/,0.14s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/category/programming/,0.08s,52.74.166.77,,"{""Python"": 1}"
+-- https://emptysqua.re/blog/ordinary-zen/,0.07s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/collapse-by-jared-diamond/,0.08s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/invitation-to-a-zen-street-retreat/,0.31s,52.74.166.77,,"{""Python"": 1, ""JavaScript"": 1}"
+-- https://emptysqua.re/blog/johns-hopkins-psychedelics/,0.30s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/review-c5/,0.07s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/words-born-when-i-was/,0.07s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/tag/psychedelic/,0.30s,52.74.166.77,,{}
+-- https://emptysqua.re/blog/journal-of-the-plague-year/,0.29s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/how-buddhism-survived-japanese-internment/,0.31s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/who-can-you-trust/,0.90s,52.74.166.77,,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/e-store-and-p-store/,0.05s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/sanghas-supporting-refugees/,0.05s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/1pipe/,0.06s,52.74.166.77,,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/meditation-at-home/,0.27s,52.74.166.77,,"{""Python"": 1, ""JavaScript"": 1}"
+---- https://emptysqua.re/blog/tag/villagezendo/,0.39s,52.74.166.77,,{}
+-- https://emptysqua.re/blog/photography/lower-east-side/,0.63s,52.74.166.77,,{}
+---- https://portfolio.emptysqua.re/transitional-housing,0.45s,104.18.132.62,,{}
+---- https://portfolio.emptysqua.re/new-york-zen,0.50s,104.18.132.62,,{}
+---- https://portfolio.emptysqua.re/portraits,0.50s,104.18.132.62,,{}
+---- https://portfolio.emptysqua.re/downtown,0.77s,104.18.132.62,,{}
+---- https://portfolio.emptysqua.re/chicago,1.84s,104.18.132.62,,{}
+---- https://portfolio.emptysqua.re/,1.98s,104.18.132.62,,{}
+---- https://portfolio.emptysqua.re,1.96s,104.18.132.62,,{}
+-- https://emptysqua.re/blog/ivan-climber/,0.05s,52.74.166.77,,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/you-look-so-zen/,0.07s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/when-the-buddha-met-a-murderer/,0.07s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/year-end-2019-photos/,0.06s,52.74.166.77,,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/five-ways-to-establish-a-rock-solid-meditation-habit/,0.31s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/how-to-dissolve-the-self/,0.06s,52.74.166.77,,"{""JavaScript"": 1}"
+-- https://emptysqua.re/blog/all-posts/,0.34s,52.74.166.77,,{}
+---- https://emptysqua.re/blog/all-posts/index.xml,0.05s,52.74.166.77,,{}
+---- https://emptysqua.re/blog/falling-commitment-may-2023/,0.04s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/trad-climbing-camp-june-2023/,0.28s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/review-polardb-scc/,0.06s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/review-selftune/,0.28s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/all-posts/page/2,0.64s,52.74.166.77,,"{""Python"": 1, ""Ruby"": 1}"
+---- https://emptysqua.re/blog/review-queue-theory-book/,0.66s,52.74.166.77,,"{""JavaScript"": 1}"
+-- http://emptysqua.re/photography/homeless-shelters/,1.07s,52.74.166.77,,{}
+-- https://emptysqua.re/blog/mongodb-stable-api/,0.30s,52.74.166.77,,"{""Python"": 1, ""C++"": 1, ""JavaScript"": 1}"
+---- https://emptysqua.re/blog/tokudo-shomon/,0.04s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/consistency-aware-durability/,0.37s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/tag/mongodbworld/,0.35s,52.74.166.77,,{}
+-- https://emptysqua.re/blog/rip-shirley/,0.08s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/after-244-days-off/,0.06s,52.74.166.77,,"{""JavaScript"": 1}"
+---- https://emptysqua.re/blog/tag/hamster/,0.06s,52.74.166.77,,{}
+---- https://emptysqua.re/blog/category/uncategorized/,0.38s,52.74.166.77,,{}
+-- https://emptysqua.re/blog/photography/new-york-city-zen/,1.34s,52.74.166.77,,{}
+https://astral.sh/blog,0.08s,172.67.200.58,,"{""Python"": 28}"
+-- https://astral.sh/static/safari-pinned-tab.svg,0.16s,172.67.200.58,,{}
+-- https://astral.sh/,0.16s,172.67.200.58,,"{""Python"": 35}"
+-- https://astral.sh/static/site.webmanifest,0.16s,172.67.200.58,,{}
+-- https://astral.sh/private?post_id=6&key=SOME_KEY,0.20s,172.67.200.58,,"{""Python"": 19}"
+---- https://astral.sh/404-2,0.26s,172.67.200.58,,"{""Python"": 19}"
+-- https://astral.sh/blog/ruff-v0.0.278,0.20s,172.67.200.58,,"{""Python"": 3}"
+---- https://astral.sh,0.09s,172.67.200.58,,"{""Python"": 35}"
+---- https://astral.sh/blog/rss.xml,1.47s,172.67.200.58,,"{""Python"": 3}"
+-- https://astral.sh/blog/ruff-v0.0.276,0.20s,172.67.200.58,,"{""Python"": 19}"
+---- https://astral.sh/settings.md,0.10s,172.67.200.58,,"{""Python"": 19}"
+-- https://astral.sh/ruff,0.35s,172.67.200.58,,"{""Python"": 31}"
+-- https://astral.sh/blog/ruff-v0.1.0,0.20s,172.67.200.58,,"{""Python"": 3}"
+-- https://astral.sh/blog/ruff-v0.0.283,0.20s,172.67.200.58,,"{""Python"": 31}"
+-- https://astral.sh/blog/ruff-v0.0.285,0.20s,172.67.200.58,,"{""Python"": 7}"
+-- https://astral.sh/blog/ruff-v0.0.281,0.20s,172.67.200.58,,"{""Python"": 9}"
+-- https://astral.sh/blog/ruff-v0.0.292,0.21s,172.67.200.58,,"{""Python"": 9}"
+-- https://astral.sh/about,0.32s,172.67.200.58,,"{""Python"": 31}"
+-- https://astral.sh/blog/the-ruff-formatter,0.26s,172.67.200.58,,"{""Python"": 26}"
+-- https://astral.sh/blog/announcing-astral-the-company-behind-ruff,0.30s,172.67.200.58,,"{""Python"": 31, ""Rust"": 2}"
+https://go.dev,0.36s,216.239.34.21,,"{""Go"": 34}"
+-- https://go.dev/solutions/,0.33s,216.239.34.21,,"{""Go"": 20}"
+---- https://go.dev/security/policy,0.36s,216.239.34.21,,"{""Go"": 24}"
+-- https://go.dev/learn/,0.32s,216.239.34.21,,"{""Go"": 42}"
+---- https://go.dev/doc/install,0.45s,216.239.34.21,,"{""Go"": 28}"
+---- https://go.dev/doc/,0.46s,216.239.34.21,,"{""Go"": 62, ""C"": 1}"
+---- https://go.dev/doc/tutorial/create-module,0.34s,216.239.34.21,,"{""Go"": 32}"
+---- https://go.dev/doc/tutorial/getting-started,0.34s,216.239.34.21,,"{""Go"": 30}"
+-- https://go.dev/solutions/paypal,0.38s,216.239.34.21,,"{""Go"": 45, ""C++"": 1, ""Java"": 2}"
+-- https://go.dev/brand,0.32s,216.239.34.21,,"{""Go"": 78}"
+---- https://go.dev/blog/go-brand,0.38s,216.239.34.21,,"{""Go"": 25}"
+-- https://go.dev/tour/,0.31s,216.239.34.21,,{}
+---- https://go.dev/tour/list,0.37s,216.239.34.21,,{}
+-- https://go.dev/blog,0.69s,216.239.34.21,,"{""Go"": 42}"
+---- https://go.dev/blog/loopvar-preview,0.45s,216.239.34.21,,"{""Go"": 41}"
+---- https://go.dev/blog/slog,0.46s,216.239.34.21,,"{""Go"": 35}"
+---- https://go.dev/blog/type-inference,0.59s,216.239.34.21,,"{""Go"": 37, ""C"": 9}"
+---- https://go.dev/blog/toolchain,0.55s,216.239.34.21,,"{""Go"": 69}"
+---- https://go.dev/blog/rebuild,0.44s,216.239.34.21,,"{""Go"": 109, ""C"": 24, ""Perl"": 1}"
+---- https://go.dev/blog/compat,0.43s,216.239.34.21,,"{""Go"": 93, ""C"": 1}"
+---- https://go.dev/blog/feed.atom,1.26s,216.239.34.21,,"{""Go"": 323, ""C"": 34, ""JavaScript"": 1, ""Perl"": 1}"
+---- https://go.dev/blog/pgo,0.45s,216.239.34.21,,"{""Go"": 39}"
+---- https://go.dev/blog/deconstructing-type-parameters,0.38s,216.239.34.21,,"{""Go"": 23}"
+---- https://go.dev/blog/wasi,0.35s,216.239.34.21,,"{""Go"": 39, ""JavaScript"": 1}"
+---- https://go.dev/blog/all,0.63s,216.239.34.21,,"{""Go"": 289, ""C"": 1}"
+---- https://go.dev/blog/gopls-scalability,0.45s,216.239.34.21,,"{""Go"": 35}"
+-- https://go.dev/doc,0.70s,216.239.34.21,,"{""Go"": 62, ""C"": 1}"
+---- https://go.dev/doc/modules/managing-dependencies,0.67s,216.239.34.21,,"{""Go"": 43}"
+---- https://go.dev/blog/go-imagedraw-package,0.68s,216.239.34.21,,"{""Go"": 26}"
+---- https://go.dev/cmd/cgo/,0.68s,216.239.34.21,,"{""Go"": 100, ""C"": 79, ""C++"": 4}"
+---- https://go.dev/doc/tutorial/generics.html,0.76s,216.239.34.21,,"{""Go"": 27}"
+---- https://go.dev/doc/modules/major-version,0.44s,216.239.34.21,,"{""Go"": 18}"
+---- https://go.dev/doc/tutorial/getting-started.html,0.87s,216.239.34.21,,"{""Go"": 30}"
+---- https://go.dev/pkg/image/draw/,0.81s,216.239.34.21,,"{""Go"": 16}"
+---- https://go.dev/cmd/go/,0.81s,216.239.34.21,,"{""Go"": 119, ""C"": 15, ""C++"": 4, ""JavaScript"": 1}"
+---- https://go.dev/effective_go.html,0.34s,216.239.34.21,,"{""Go"": 17}"
+---- https://go.dev/doc/cmd,0.37s,216.239.34.21,,"{""Go"": 25, ""C"": 1}"
+---- https://go.dev/ref/spec,1.24s,216.239.34.21,,"{""Go"": 35}"
+---- https://go.dev/doc/database/querying,0.42s,216.239.34.21,,"{""Go"": 23}"
+---- https://go.dev/doc/modules/developing,0.43s,216.239.34.21,,"{""Go"": 26}"
+---- https://go.dev/doc/database/prepared-statements,0.33s,216.239.34.21,,"{""Go"": 17}"
+---- https://go.dev/blog/json-rpc-tale-of-interfaces,0.81s,216.239.34.21,,"{""Go"": 20, ""Java"": 1}"
+---- https://go.dev/doc/tutorial/web-service-gin.html,0.87s,216.239.34.21,,"{""Go"": 29}"
+---- https://go.dev/doc/articles/wiki/,0.56s,216.239.34.21,,"{""Go"": 20}"
+---- https://go.dev/blog/c-go-cgo,0.68s,216.239.34.21,,"{""Go"": 34, ""C"": 20}"
+---- https://go.dev/blog/module-compatibility,0.61s,216.239.34.21,,"{""Go"": 30}"
+---- https://go.dev/doc/database/cancel-operations,0.28s,216.239.34.21,,"{""Go"": 19}"
+---- https://go.dev/code.html,0.29s,216.239.34.21,,"{""Go"": 17}"
+---- https://go.dev/doc/database/sql-injection,0.32s,216.239.34.21,,"{""Go"": 18}"
+---- https://go.dev/blog/go-image-package,0.59s,216.239.34.21,,"{""Go"": 25, ""C"": 1}"
+---- https://go.dev/blog/migrating-to-go-modules,0.39s,216.239.34.21,,"{""Go"": 41}"
+---- https://go.dev/editors.html,0.31s,216.239.34.21,,"{""Go"": 17}"
+---- https://go.dev/doc/codewalk/functions,0.80s,216.239.34.21,,"{""Go"": 19}"
+---- https://go.dev/doc/comment,0.39s,216.239.34.21,,"{""Go"": 41}"
+---- https://go.dev/blog/publishing-go-modules,0.40s,216.239.34.21,,"{""Go"": 30}"
+---- https://go.dev/doc/codewalk/markov,0.80s,216.239.34.21,,"{""Go"": 21}"
+---- https://go.dev/doc/asm,0.36s,216.239.34.21,,"{""Go"": 41, ""C"": 1, ""Assembly"": 2}"
+---- https://go.dev/doc/modules/gomod-ref,0.41s,216.239.34.21,,"{""Go"": 48}"
+---- https://go.dev/doc/tutorial/create-module.html,0.81s,216.239.34.21,,"{""Go"": 32}"
+---- https://go.dev/doc/modules/version-numbers,0.41s,216.239.34.21,,"{""Go"": 20}"
+---- https://go.dev/doc/database/change-data,0.39s,216.239.34.21,,"{""Go"": 17}"
+---- https://go.dev/doc/codewalk/sharemem,0.85s,216.239.34.21,,"{""Go"": 18}"
+---- https://go.dev/testing/coverage,0.66s,216.239.34.21,,"{""Go"": 27}"
+---- https://go.dev/pkg/encoding/gob/,0.77s,216.239.34.21,,"{""Go"": 18, ""C"": 2}"
+---- https://go.dev/doc/modules/release-workflow,0.40s,216.239.34.21,,"{""Go"": 17}"
+---- https://go.dev/blog/using-go-modules,0.39s,216.239.34.21,,"{""Go"": 40}"
+---- https://go.dev/blog/profiling-go-programs,0.69s,216.239.34.21,,"{""Go"": 38, ""Java"": 3, ""C++"": 11}"
+---- https://go.dev/wiki/GoTalks,1.04s,216.239.34.21,,"{""Go"": 58, ""Ruby"": 2, ""C"": 1, ""JavaScript"": 1}"
+-- https://go.dev/doc/install/,0.76s,216.239.34.21,,"{""Go"": 28}"
+-- https://go.dev/play,0.69s,216.239.34.21,,"{""Go"": 23}"
+-- https://go.dev/solutions/clis/,0.71s,216.239.34.21,,"{""Go"": 46, ""C"": 1, ""C++"": 1}"
+-- https://go.dev/solutions/cloud/,0.70s,216.239.34.21,,"{""Go"": 48, ""JavaScript"": 1}"
+-- https://go.dev/tos,0.39s,216.239.34.21,,"{""Go"": 18}"
+-- https://go.dev/s/website-issue,1.09s,216.239.34.21,,{}
+-- https://go.dev/solutions/case-studies,0.39s,216.239.34.21,,"{""Go"": 50, ""C#"": 1, ""Python"": 2, ""Java"": 1}"
+-- https://go.dev/blog/,0.40s,216.239.34.21,,"{""Go"": 42}"
+-- https://go.dev/solutions/devops/,0.70s,216.239.34.21,,"{""Go"": 29}"
+-- https://go.dev/conduct,0.36s,216.239.34.21,,"{""Go"": 21}"
+-- https://go.dev/copyright,0.36s,216.239.34.21,,"{""Go"": 17}"
+-- https://go.dev/pkg/,0.78s,216.239.34.21,,"{""Go"": 63, ""C"": 2}"
+-- https://go.dev/help/,0.65s,216.239.34.21,,"{""Go"": 33}"
+-- https://go.dev/solutions/google/,0.34s,216.239.34.21,,"{""Go"": 24}"
+-- https://go.dev/solutions/webdev/,0.63s,216.239.34.21,,"{""Go"": 51, ""Python"": 1, ""JavaScript"": 2}"
+-- https://go.dev/security/,0.31s,216.239.34.21,,"{""Go"": 33}"
+-- https://go.dev/images/favicon-gopher.svg,0.44s,216.239.34.21,,"{""C"": 1}"
+-- https://go.dev/,0.31s,216.239.34.21,,"{""Go"": 34}"
+-- https://go.dev/project,0.42s,216.239.34.21,,"{""Go"": 32}"
+-- https://go.dev/pkg/net/http/,1.03s,216.239.34.21,,"{""Go"": 23}"
+-- https://go.dev/solutions/use-cases,0.32s,216.239.34.21,,"{""Go"": 20}"
+-- https://go.dev/pkg/database/sql/,1.21s,216.239.34.21,,"{""Go"": 19}"
+-- https://go.dev/learn,0.62s,216.239.34.21,,"{""Go"": 42}"
+-- https://go.dev/solutions/mercadolibre,0.44s,216.239.34.21,,"{""Go"": 49, ""Groovy"": 4, ""Java"": 2}"
+-- https://go.dev/help,0.42s,216.239.34.21,,"{""Go"": 33}"
+-- https://go.dev/talks/,0.62s,216.239.34.21,,"{""Go"": 17}"
+-- https://go.dev/solutions/americanexpress,0.64s,216.239.34.21,,"{""Go"": 42, ""Java"": 1}"
+-- https://go.dev/doc/effective_go,0.87s,216.239.34.21,,"{""Go"": 65, ""C++"": 1, ""Java"": 1, ""C"": 7}"
+-- https://go.dev/doc/devel/release,0.38s,216.239.34.21,,"{""Go"": 39}"
+-- https://go.dev/pkg/html/template/,0.67s,216.239.34.21,,"{""Go"": 17, ""JavaScript"": 7}"
+-- https://go.dev/dl,1.99s,216.239.34.21,,"{""Go"": 89}"
+-- https://go.dev/dl/,1.72s,216.239.34.21,,"{""Go"": 89}"
+https://www.ekzhang.com,0.05s,185.199.110.153,,{}
+-- https://www.ekzhang.com/,0.07s,185.199.110.153,,{}
+-- https://www.ekzhang.com/resume,0.07s,185.199.110.153,,"{""Rust"": 1, ""JavaScript"": 1}"
+-- https://www.ekzhang.com/favicon.svg,0.07s,185.199.110.153,,{}
+-- https://www.ekzhang.com/writing,0.07s,185.199.110.153,,{}
+-- https://www.ekzhang.com/projects,0.07s,185.199.110.153,,"{""Rust"": 5, ""C++"": 2, ""Python"": 1, ""Java"": 1}"
+---- https://www.ekzhang.com/graphics-workshop/,0.06s,185.199.110.153,,{}
+---- https://www.ekzhang.com/_app/immutable/assets/redis-rope.e1e2ba4e.svg,0.30s,185.199.110.153,,{}
+https://gwern.net,0.87s,104.26.6.70,,"{""JavaScript"": 1, ""Haskell"": 2}"
+-- https://gwern.net/review/mlp,0.64s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/justification,0.85s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/screwfly,0.89s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/fulltext,0.89s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/haskell/wikipedia-rss-archive-bot,0.85s,104.26.6.70,,"{""JavaScript"": 2, ""Haskell"": 1}"
+-- https://gwern.net/doc/bitcoin/2011-davis,0.95s,104.26.6.70,,"{""JavaScript"": 2, ""C++"": 1}"
+-- https://gwern.net/haskell/wikipedia-archive-bot,0.84s,104.26.6.70,,"{""JavaScript"": 3, ""Haskell"": 5, ""Java"": 1, ""Go"": 1}"
+-- https://gwern.net/doc/culture/2007-wolfe,0.97s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/complement,0.99s,104.26.6.70,,"{""JavaScript"": 2, ""Java"": 1, ""C++"": 2, ""Haskell"": 2}"
+-- https://gwern.net/morning-writing,1.25s,104.26.6.70,,"{""JavaScript"": 2, ""Go"": 2, ""Python"": 1}"
+-- https://gwern.net/smpy,1.46s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/anime/eva/2010-crc,1.46s,104.26.6.70,,"{""JavaScript"": 2, ""C"": 3}"
+-- https://gwern.net/language,0.70s,104.26.6.70,,"{""JavaScript"": 2, ""Python"": 1}"
+-- https://gwern.net/doc/bitcoin/2008-nakamoto,0.73s,104.26.6.70,,"{""JavaScript"": 2, ""C++"": 1}"
+-- https://gwern.net/doc/anime/eva/2011-house,0.82s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/timestamping,0.75s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/cs/cryptography/1955-nash,0.80s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/metadata/today-quote.html,0.78s,104.26.6.70,,{}
+-- https://gwern.net/doc/economics/automation/index,0.84s,104.26.6.70,,"{""JavaScript"": 1}"
+-- https://gwern.net/index,0.83s,104.26.6.70,,"{""JavaScript"": 1, ""Haskell"": 2}"
+-- https://gwern.net/doc/anime/eva/little-boy/2005-sawaragi,0.76s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/anime/eva/2002-takeda-notenkimemoirs,1.42s,104.26.6.70,,"{""JavaScript"": 2, ""Go"": 2}"
+-- https://gwern.net/nootropic/nootropics,1.31s,104.26.6.70,,"{""JavaScript"": 2, ""Haskell"": 2}"
+-- https://gwern.net/forking-path,0.58s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/biology/portia/index,0.74s,104.26.6.70,,"{""JavaScript"": 1}"
+-- https://gwern.net/subculture,1.08s,104.26.6.70,,"{""JavaScript"": 2, ""Objective-C"": 1, ""Lua"": 2, ""Ruby"": 4, ""Go"": 1}"
+-- https://gwern.net/doc/bitcoin/nashx/index,0.71s,104.26.6.70,,"{""JavaScript"": 1}"
+-- https://gwern.net/note/fc,0.77s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/utext,0.78s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/causality,0.91s,104.26.6.70,,"{""JavaScript"": 2, ""C"": 7}"
+-- https://gwern.net/twdne,1.03s,104.26.6.70,,"{""JavaScript"": 2, ""Python"": 2}"
+-- https://gwern.net/3-grenades,0.41s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/mouse-utopia,0.75s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/wood-pillow,0.71s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/haskell/summer-of-code,0.87s,104.26.6.70,,"{""Haskell"": 56, ""JavaScript"": 2, ""C"": 1, ""C++"": 2}"
+-- https://gwern.net/newton,0.83s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/creatine,0.75s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/treadmill,0.81s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/lllt,0.75s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/review/bakker,0.72s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/zeo/redshift,0.80s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/note/variance-components,0.87s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/note/fashion,0.81s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/anime/eva/little-boy/2005-little-boy,0.80s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/gpt-2-music,0.85s,104.26.6.70,,"{""JavaScript"": 2, ""Haskell"": 1}"
+-- https://gwern.net/font,0.72s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/larping,0.77s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/drug-heuristic,0.75s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/wikipedia-and-knol,0.79s,104.26.6.70,,"{""JavaScript"": 2, ""PHP"": 1, ""Go"": 1}"
+-- https://gwern.net/modafinil,1.13s,104.26.6.70,,"{""JavaScript"": 2, ""C"": 2}"
+-- https://gwern.net/nicotine,0.87s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/conscientiousness,0.96s,104.26.6.70,,"{""JavaScript"": 2, ""C"": 1, ""Python"": 1}"
+-- https://gwern.net/death-note-anonymity,0.88s,104.26.6.70,,"{""Go"": 3, ""JavaScript"": 2}"
+-- https://gwern.net/fiction/hybrid-rainbow,0.32s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/metadata/today-annotation.html,0.77s,104.26.6.70,,{}
+-- https://gwern.net/leprechaun,0.74s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/radiance/2002-scholz-radiance,1.66s,104.26.6.70,,"{""JavaScript"": 2, ""Go"": 5, ""C"": 4, ""Assembly"": 2}"
+-- https://gwern.net/beauty,0.69s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/japan/art/2002-gibson,0.75s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/correlation,0.89s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/note/pipeline,0.72s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/note/small-groups,0.73s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/review/umineko,0.74s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/backstop,1.03s,104.26.6.70,,"{""JavaScript"": 2, ""Go"": 1, ""Rust"": 1}"
+-- https://gwern.net/fmp-parody,0.82s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/darknet-market/silk-road/1/2013-power,1.05s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/hyperbolic-time-chamber,0.80s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/variable,0.89s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/holy-war,0.64s,104.26.6.70,,"{""JavaScript"": 4, ""Python"": 19, ""C"": 4, ""Go"": 3, ""Haskell"": 2}"
+-- https://gwern.net/note/fermi,0.48s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/ai/nn/sparsity/index,0.81s,104.26.6.70,,"{""JavaScript"": 1}"
+-- https://gwern.net/note/attention,0.79s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/goodreads,1.16s,104.26.6.70,,"{""JavaScript"": 2, ""Dart"": 1, ""Go"": 1}"
+-- https://gwern.net/doc/sociology/abandoned-footnotes/index,0.75s,104.26.6.70,,"{""JavaScript"": 1}"
+-- https://gwern.net/note/scaling,0.80s,104.26.6.70,,"{""JavaScript"": 2, ""Go"": 1}"
+-- https://gwern.net/replication,1.14s,104.26.6.70,,"{""Go"": 3, ""JavaScript"": 2}"
+-- https://gwern.net/selection,0.40s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/dnm-survival,1.05s,104.26.6.70,,"{""JavaScript"": 2, ""PHP"": 2}"
+-- https://gwern.net/note/parasocial,0.79s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/traffic,0.90s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/epigram,0.97s,104.26.6.70,,"{""JavaScript"": 2, ""PHP"": 1, ""Go"": 1}"
+-- https://gwern.net/slowing-moores-law,0.85s,104.26.6.70,,"{""JavaScript"": 2, ""Assembly"": 1}"
+-- https://gwern.net/ab-test-indent,0.95s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/fiction/batman,0.53s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/google-shutdown,1.06s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/haskell/run-length-encoding,0.79s,104.26.6.70,,"{""Haskell"": 3, ""JavaScript"": 2}"
+-- https://gwern.net/ontological-pantheism,0.72s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/girl-scouts,0.63s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/embryo-selection,1.23s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/long-bets,0.92s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/existential-risk/1985-hofstadter,0.64s,104.26.6.70,,"{""JavaScript"": 2, ""C"": 3}"
+-- https://gwern.net/mail-delivery,0.93s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/console-insurance,0.80s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/doc/iq/high/anne-roe/index,0.83s,104.26.6.70,,"{""JavaScript"": 1}"
+-- https://gwern.net/design-graveyard,1.06s,104.26.6.70,,"{""JavaScript"": 5, ""Perl"": 1, ""C"": 1, ""Haskell"": 4}"
+-- https://gwern.net/note/local-optima,0.80s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/startup-idea,0.96s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/amuse,1.25s,104.26.6.70,,"{""JavaScript"": 2}"
+-- https://gwern.net/prediction-market,1.09s,104.26.6.70,,"{""JavaScript"": 2, ""Swift"": 1, ""Shell"": 2}"
+https://evjang.com,0.05s,185.199.110.153,,{}
+-- https://evjang.com/,0.13s,185.199.110.153,,{}
+-- https://evjang.com/2018/01/23/browncm.html,0.09s,185.199.110.153,,{}
+-- https://evjang.com/2019/05/26/ai-lessons-first-three-years.html,0.09s,185.199.110.153,,{}
+-- https://evjang.com/2023/03/26/self-reflection.html,0.10s,185.199.110.153,,{}
+-- https://evjang.com/2016/02/27/draw.html,0.39s,185.199.110.153,,{}
+-- https://evjang.com/2019/06/19/nf-jax.html,0.39s,185.199.110.153,,{}
+-- https://evjang.com/2019/05/12/gender-swap.html,0.39s,185.199.110.153,,{}
+-- https://evjang.com/2021/10/23/generalization.html,0.41s,185.199.110.153,,{}
+---- https://evjang.com/(https://openai.com/blog/dall-e/),0.05s,185.199.110.153,,{}
+------ https://evjang.com/404.html,0.38s,185.199.110.153,,{}
+-- https://evjang.com/2020/11/28/moravec-bots.html,0.39s,185.199.110.153,,{}
+-- https://evjang.com/projects/,0.40s,185.199.110.153,,{}
+-- https://evjang.com/2022/04/25/rome.html,0.09s,185.199.110.153,,{}
+---- https://evjang.com/resume,0.22s,185.199.110.153,,{}
+-- https://evjang.com/2019/11/07/robinhood.html,0.40s,185.199.110.153,,{}
+-- https://evjang.com/2021/03/14/learning-robots.html,0.41s,185.199.110.153,,{}
+-- https://evjang.com/2021/02/13/backprop.html,0.49s,185.199.110.153,,{}
+-- https://evjang.com/2018/01/17/nf1.html,0.47s,185.199.110.153,,{}
+-- https://evjang.com/2018/08/08/dijkstra.html,0.47s,185.199.110.153,,{}
+-- https://evjang.com/2014/01/14/reverse-eng.html,0.23s,185.199.110.153,,{}
+-- https://evjang.com/2021/06/19/nft.html,0.25s,185.199.110.153,,{}
+-- https://evjang.com/feed.xml,0.34s,185.199.110.153,,"{""Python"": 2}"
+-- https://evjang.com/2018/01/17/nf2.html,0.56s,185.199.110.153,,{}
+-- https://evjang.com/2018/02/23/teacup.html,0.57s,185.199.110.153,,{}
+-- https://evjang.com/2020/06/20/office-hours.html,0.55s,185.199.110.153,,{}
+-- https://evjang.com/2021/09/20/ephemeralization.html,0.57s,185.199.110.153,,{}
+-- https://evjang.com/2022/04/03/ea-haikus.html,0.15s,185.199.110.153,,{}
+-- https://evjang.com/2022/04/02/yc-rank.html,0.56s,185.199.110.153,,"{""Python"": 2}"
+-- https://evjang.com/2015/08/17/internship-experiences.html,0.57s,185.199.110.153,,{}
+-- https://evjang.com/2021/05/26/arcade.html,0.04s,185.199.110.153,,{}
+-- https://evjang.com/2021/07/30/rl-qa.html,0.06s,185.199.110.153,,{}
+-- https://evjang.com/2019/03/10/causal-rl.html,0.04s,185.199.110.153,,{}
+-- https://evjang.com/2017/01/02/nips2016.html,0.06s,185.199.110.153,,{}
+-- https://evjang.com/about/,0.05s,185.199.110.153,,{}
+---- https://evjang.com/projects,0.31s,185.199.110.153,,{}
+-- https://evjang.com/2020/09/13/chaos.html,0.07s,185.199.110.153,,{}
+-- https://evjang.com/2016/05/14/adversarial-rl.html,0.05s,185.199.110.153,,{}
+-- https://evjang.com/2017/12/25/gamma.html,0.31s,185.199.110.153,,{}
+-- https://evjang.com/2018/06/21/icra18.html,0.39s,185.199.110.153,,{}
+-- https://evjang.com/2021/12/17/lang-generalization.html,0.40s,185.199.110.153,,{}
+-- https://evjang.com/officehours/,0.05s,185.199.110.153,,{}
+---- https://evjang.com/book,0.31s,185.199.110.153,,{}
+-- https://evjang.com/2016/09/24/relu-origami.html,0.34s,185.199.110.153,,{}
+-- https://evjang.com/book/,0.08s,185.199.110.153,,{}
+-- https://evjang.com/2019/02/05/bagnet.html,0.09s,185.199.110.153,,{}
+-- https://evjang.com/2019/02/21/maml-jax.html,0.08s,185.199.110.153,,{}
+-- https://evjang.com/2023/06/22/robocat.html,0.37s,185.199.110.153,,{}
+---- https://evjang.com/about,0.32s,185.199.110.153,,{}
+-- https://evjang.com/2016/08/07/vae.html,0.31s,185.199.110.153,,{}
+-- https://evjang.com/talks/,0.38s,185.199.110.153,,{}
+-- https://evjang.com/2019/11/28/jaxpt.html,0.37s,185.199.110.153,,{}
+-- https://evjang.com/2017/11/20/expressivity-trainability-generalization.html,0.39s,185.199.110.153,,{}
+-- https://evjang.com/2019/12/25/aaai.html,0.38s,185.199.110.153,,{}
+-- https://evjang.com/2020/04/01/three-questions.html,0.40s,185.199.110.153,,{}
+-- https://evjang.com/2019/07/05/likelihood-model-tips.html,0.39s,185.199.110.153,,{}
+-- https://evjang.com/2016/09/16/riemann-bias.html,0.14s,185.199.110.153,,{}
+-- https://evjang.com/2018/12/28/uncertainty.html,0.17s,185.199.110.153,,{}
+-- https://evjang.com/2016/11/08/gumbel-softmax.html,0.15s,185.199.110.153,,{}
+-- https://evjang.com/2017/10/12/crystal-nights.html,0.17s,185.199.110.153,,{}
+-- https://evjang.com/2020/09/27/reviewing.html,0.42s,185.199.110.153,,{}
+-- https://evjang.com/2016/09/05/monte-carlo-variance.html,0.41s,185.199.110.153,,{}
+-- https://evjang.com/2021/01/25/understanding-ml.html,0.07s,185.199.110.153,,{}
+-- https://evjang.com/2018/04/01/aesthetic-lr.html,0.06s,185.199.110.153,,{}
+-- https://evjang.com/2022/07/23/robotics-generative.html,0.33s,185.199.110.153,,{}
+-- https://evjang.com/2022/03/21/leaving-google-brain.html,0.30s,185.199.110.153,,{}
+-- https://evjang.com/2015/12/29/gan.html,0.33s,185.199.110.153,,{}

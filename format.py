@@ -1,17 +1,17 @@
 import csv
-from datetime import datetime
 
-header = ("URL", "SEQ", "START", "END", "DURATION")
+
+header = ("URL", "DURATION", "IP_ADDRESS", "GEOLOCATION", "LANGUAGES")
 
 
 def format_result(parent_url, result, prefix=""):
     rows = [
         (
             (prefix + " " if prefix else "") + parent_url,
-            str(result[parent_url]["seq"]),
-            datetime.fromtimestamp(result[parent_url]["start"]).strftime("%H:%M:%S.%f"),
-            datetime.fromtimestamp(result[parent_url]["end"]).strftime("%H:%M:%S.%f"),
             "{:.2f}s".format(result[parent_url]["end"] - result[parent_url]["start"]),
+            result[parent_url]["ip_address"],
+            result[parent_url]["geolocation"],
+            result[parent_url]["languages"],
         )
     ]
 
