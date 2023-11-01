@@ -27,5 +27,5 @@ if __name__ == "__main__":
     ]
 
     filepath = "result.csv"
-    limit_per_page = 100
+    limit_per_page = 500
     main(sites, filepath, limit_per_page)
