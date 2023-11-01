@@ -1,5 +1,6 @@
 import concurrent.futures
 import json
+import re
 import socket
 import threading
 import time
@@ -14,7 +15,7 @@ from config import ignored_extensions, programming_languages
 
 def _count_language_mentions(text):
     mention_count = defaultdict(int)
-    for token in text.split(" "):
+    for token in re.findall(r'\w+', text):
         if token in programming_languages:
             mention_count[token] += 1
 
