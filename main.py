@@ -17,7 +17,6 @@ if __name__ == "__main__":
         "http://paulgraham.com",
         "https://www.benkuhn.net",
         "https://danluu.com",
-        "https://www.swyx.io",
         "https://emptysqua.re/blog/",
         "https://astral.sh/blog",
         "https://go.dev",
