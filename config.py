@@ -9,6 +9,8 @@ programming_languages = {
     "Go",
     "TypeScript",
     "Kotlin",
+    "Lisp",
+    "OCaml",
     "C",
     "C++",
     "Rust",
